@@ -38,6 +38,8 @@ The Application Layer doesn't directly know about the database. Instead, it talk
 This way, you can easily swap out databases or external services without changing the core logic.
 
 **Benefits of Clean Architecture**
-Testability: Each layer is isolated, so you can easily test business logic without worrying about the database or UI.
-Maintainability: Changes to one layer (e.g., switching from SQL Server to MongoDB) don’t affect other layers.
-Flexibility: You can replace external systems, UI, or infrastructure without changing core business logic.
+**Testability:** Each layer is isolated, so you can easily test business logic without worrying about the database or UI.
+
+**Maintainability:** Changes to one layer (e.g., switching from SQL Server to MongoDB) don’t affect other layers.
+
+**Flexibility:** You can replace external systems, UI, or infrastructure without changing core business logic.
